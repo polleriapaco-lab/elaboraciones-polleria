@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" android:label="Elaboraciones - La Pollería 2.0" android:theme="@style/AppTheme">
+    <application android:allowBackup="true" android:icon="@mipmap/polleria_icon" android:roundIcon="@mipmap/polleria_icon" android:label="Elaboraciones - La Pollería 2.0" android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" android:screenOrientation="landscape" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
